@@ -17,7 +17,7 @@ ignoreErrors = ["error-remote-getjson"]
 # Additions stop here
     
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "Jane Doe's Portfolio!"
+  description = "Tasha Pais's Portfolio!"
   [Params.Terminal]
   # Note: color scheme
   # Note: You can choose between
@@ -36,8 +36,8 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
-  pcName = "laptop"
+  userName = "tasha"
+  pcName = "myPortal"
   workDir = "mydir"
   profile = "profile.txt"
 
@@ -63,9 +63,22 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = """
-  Hi I am Jane Doe!
-  Nice to meet you!
-  
+Hi I am Tasha Pais! Nice to meet you 🤠
+
+I am a sophomore studying <span style="color:orchid">Computer Science+ Physics.</span>
+I can also play the piano and run a pretty fast mile.
+
+I grew up in Bangalore, Queens, Singapore, and New Jersey
+but currently <span style="color:pink">live in NYC</span> at a startup house.
+
+One of my biggest priorities is diving deep into new tech
+and <span style="color:darkorange">building technical competence.</span>
+
+Check out my <a href="https://medium.com/@tashapais">writing</a> and <a href="https://github.com/tashapais">code</a>. Connect with me on <a href="https://twitter.com/TashaPais">Twitter</a> or <a href="https://www.linkedin.com/in/tasha-pais-9360281a7/">LinkedIn</a>.
+
+I currently work as a <span style="color:DodgerBlue">freelance Solana developer.</span>
+Have a challenge? 👉 tashapais@gmail.com
+
   """
 
   # Note: If you want to use a Markdown file, you can use the following
@@ -77,11 +90,11 @@ ignoreErrors = ["error-remote-getjson"]
   folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
+["Building a VC backed hacker house", "https://runway.ju.mp/"],
+  ["My latest fully functioning Solana application", "https://solana-game.vercel.app/"],
+  ["An upcoming workshop about my contrarian take on web3", "https://csc.barnard.edu/events/postponed-pop-workshop-web3-and-new-world-order-blockchain-first-principles-developer"],
+  ["Playlist of past piano performances I'm adding to", "https://www.youtube.com/playlist?list=PL3rUNYN0nAwpCO2Xk6KlmptSmprpcpId6"],
+  ["Assorted ideas I frequently think of", "/thoughts.md"],
   ]
 
 [module]
