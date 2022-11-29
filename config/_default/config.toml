@@ -65,11 +65,11 @@ ignoreErrors = ["error-remote-getjson"]
   description = """
 Hi I am Tasha Pais! Nice to meet you 🤠
 
-I study <span style="color:orchid">Computer Science</span> at Columbia. 
+I study <span style="color:orchid">Computer Science.</span>
 I can also play the piano and run a pretty fast mile.
 
 I grew up in Bangalore, Queens, Singapore, and New Jersey
-but currently <span style="color:pink">live in NYC</span> at a startup house.
+and have lived at three <span style="color:pink">co-living houses</span> recently.
 
 One of my biggest priorities is diving deep into new tech
 and <span style="color:darkorange">building technical competence.</span>
@@ -90,9 +90,9 @@ Have a challenge? 👉 tashapais@gmail.com
   folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-["Building a VC backed hacker house", "https://runway.ju.mp/"],
-  ["My latest fully functioning Solana application", "https://solana-game.vercel.app/"],
-  ["An upcoming workshop about my contrarian take on web3", "https://csc.barnard.edu/events/postponed-pop-workshop-web3-and-new-world-order-blockchain-first-principles-developer"],
+["Quick thoughts on crypto", "https://pais.substack.com/publish?utm_source=user-menu"],
+  ["Fullstack Solana app that turns your highest score into an NFT", "https://solana-game.vercel.app/"],
+  ["A recent developer workshop I gave at Barnard in NYC", "https://csc.barnard.edu/events/postponed-pop-workshop-web3-and-new-world-order-blockchain-first-principles-developer"],
   ["Playlist of past piano performances I'm adding to", "https://www.youtube.com/playlist?list=PL3rUNYN0nAwpCO2Xk6KlmptSmprpcpId6"],
   ["Assorted ideas I frequently think of", "/thoughts.md"],
   ]
